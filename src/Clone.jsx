@@ -3,7 +3,7 @@ import TweetIcon from "./TweetIcon";
 export default function Clone(props) {
     const item = props.item;
     return (
-        <div className='flex p-4 mt-4 text-white'>
+        <div className='flex p-4 mt-4 text-white text-gray-400'>
             <div className=''>
                 <img className='h-18  w-32 rounded-full' src={item.author_avatar} />
             </div>
@@ -20,5 +20,5 @@ export default function Clone(props) {
             </div>
         </div>
     )
-    
+
 }
