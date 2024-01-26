@@ -142,7 +142,7 @@ function Timeline() {
 
                         </div>
                         <div className=''>
-                            <button className='bg-blue-400 rounded-full h-8 w-20  mb-11 ml-72'>Tweets</button>
+                            <button className='bg-blue-400 rounded-full h-8 w-28  mb-11 ml-72'>Tweets</button>
                         </div>
                         {/* <Routes>
                   <Route path='/' element={<Clone/>} />

@@ -12,8 +12,7 @@ function TrendsList() {
 
                 </div>
                 <section className=' text-gray-300 mt-7 space-y-5  rounded-lg bg-gray-900 pr-5 pl-5'>
-                    <h1 className=' font-bold text-xl py-1 text-gray-400'>Trends for you</h1>
-
+                        <h1 className=' font-bold text-xl py-1 text-gray-400'>Trends for you</h1>
                     <div className='flex justify-between w-full'>
                         <div>
                             <p className=' text-sm'>Trending in turkey</p>
@@ -50,7 +49,49 @@ function TrendsList() {
                         <TrendslistItems className="" icon={"./src/assets/images/Menu-Button/Icons/More-2.png"} />
                     </div>
                     <button className=' text-blue-400'>Show more</button>
-    
+                </section>
+                <section className=' text-gray-300 mt-7 space-y-5  rounded-lg bg-gray-900 pr-5 pl-5'>
+                    <h1 className=' font-bold text-xl py-1 text-gray-400'>Who to follow</h1>
+
+                    <div className='flex w-full'>
+                        <div>
+                            <TrendslistItems className="" icon={"./src/assets/images/Tweet-Profile-Photo1.png"} />
+                        </div>
+                        <div>
+                            <h1>The New York Times</h1>
+                            <p className=' text-sm'>@nytimes</p>
+                        </div>
+                        <div>
+                            <button className=' text-lg rounded-3xl text-black bg-white w-20'>Follow</button>
+                        </div>
+                    </div>
+
+                    <div className='flex justify-between w-full'>
+                        <div>
+                            <TrendslistItems className="" icon={"./src/assets/images/cnn.png"} />
+                        </div>
+                        <div>
+                            <h1>CNN</h1>
+                            <p className=' text-sm'>@CNN</p>
+                        </div>
+                        <div>
+                            <button className=' text-lg rounded-3xl text-black bg-white w-20'>Follow</button>
+                        </div>
+                    </div>
+
+                    <div className='flex justify-between w-full'>
+                        <div>
+                            <TrendslistItems className="" icon={"./src/assets/images/logotwitter.png"} />
+                        </div>
+                        <div>
+                            <h1>Twitter</h1>
+                            <p className=' text-sm'>@Twitter</p>
+                        </div>
+                        <div>
+                            <button className=' text-lg rounded-3xl text-black bg-white w-20'>Follow</button>
+                        </div>
+                    </div>
+                    <button className=' text-blue-400'>Show more</button>
                 </section>
             </div>
 
